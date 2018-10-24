@@ -15,6 +15,6 @@ Packer that builds docker image box that has nginx
 ## How to run the code
 In the terminal run the following commands:
 
-    git clone git@github.com:yaroslav-007/docker-packer.git
+    git clone git@github.com:yaroslav-007/packer-docker.git
     cd docker-packer
     packer build template.json
