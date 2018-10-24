@@ -17,6 +17,7 @@ Packer that builds docker image box that has nginx
 ## How to run the code
 In the terminal run the following commands:
 
+
 - Build VM with Virtualbox with docker installed
 ```
     git clone https://github.com/kikitux/xenial-docker
