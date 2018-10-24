@@ -23,7 +23,6 @@ In the terminal run the following commands:
     git clone https://github.com/kikitux/xenial-docker
     cd xenial-docker
     vagrant up
-    
 ```
 - Log in the VM and build the docker image
 ```
