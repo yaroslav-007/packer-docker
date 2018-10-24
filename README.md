@@ -10,11 +10,25 @@ Packer that builds docker image box that has nginx
 		``` packer -v ```
 - Install **Docker**
     - Install docker as per ariticle: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+- Install **VirtualBox**
+    - Execute in terminal: ```sudo apt-get install virtualbox```
 
 
 ## How to run the code
 In the terminal run the following commands:
 
-    git clone git@github.com:yaroslav-007/packer-docker.git
-    cd docker-packer
-    packer build template.json
+
+- Build VM with Virtualbox with docker installed
+```
+    git clone https://github.com/kikitux/xenial-docker
+    cd xenial-docker
+    vagrant up
+    
+```
+- Log in the VM and build the docker image
+```
+    vagrant ssh
+    git clone https://github.com/yaroslav-007/packer-docker.git
+    cd packer-docker/   
+    sudo packer build template.json
+```
