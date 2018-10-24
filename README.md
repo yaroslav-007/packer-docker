@@ -1,4 +1,4 @@
-# kitchen-travis test
+# Packer building docker image
 Packer that builds docker image box that has nginx
 
 ## pre-requirements
