@@ -1,0 +1,28 @@
+{
+ "builders": [
+  {
+    "type": "docker",
+    "image": "ubuntu",
+    "commit": true
+  }
+ ],
+
+
+
+  "provisioners": [
+    {
+      "type": "shell",
+      "script": "scripts/nginx.sh"
+    }
+  ],
+
+  "post-processors": [
+    [
+      {
+        "type": "docker-tag",
+        "repository": "vatman/nginx",
+        "tag": "0.6"
+      }
+    ]
+  ]
+}
