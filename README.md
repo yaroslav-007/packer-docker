@@ -8,8 +8,6 @@ Packer that builds docker image box that has nginx
 	- Extract the binary file and move/copy it to /usr/local/bin/
 	- Check if installed 
 		``` packer -v ```
-- Install **Docker**
-    - Install docker as per ariticle: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
 - Install **VirtualBox**
     - Execute in terminal: ```sudo apt-get install virtualbox```
 
