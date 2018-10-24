@@ -19,15 +19,14 @@ In the terminal run the following commands:
 
 - Build VM with Virtualbox with docker installed
 ```
-    git clone https://github.com/kikitux/xenial-docker
-    cd xenial-docker
+    git clone https://github.com/yaroslav-007/packer-docker.git
+    cd packer-docker/
     vagrant up
     
 ```
 - Log in the VM and build the docker image
 ```
     vagrant ssh
-    git clone https://github.com/yaroslav-007/packer-docker.git
-    cd packer-docker/   
+    cd /vagrant
     sudo packer build template.json
 ```
